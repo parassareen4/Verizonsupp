@@ -14,7 +14,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import toast, { Toaster } from "react-hot-toast";
 import "react-toastify/dist/ReactToastify.css";
 
-import responder from "../src/assets/deltalog.png"
+import responder from "../src/assets/verizonlog.jpg"
 import copy from '../src/assets/copy.svg'
 import like from '../src/assets/like.svg'
 import dislike from '../src/assets/dislike.svg'
@@ -168,11 +168,11 @@ const Chat = () => {
             <img src={newchat} alt="New Chat" className="h-4 w-4 sm:h-6 sm:w-6" />
           </button>
           <div className="flex gap-1 items-center">
-            <span className="font-semibold text-lg sm:text-xl text-zinc-700">Delta Help </span>
+            <span className="font-semibold text-lg sm:text-xl text-zinc-700">Verizon</span>
             <IoIosArrowDown />
           </div>
         </div>
-        <h1 className="text-lg sm:text-xl font-semibold hidden sm:flex gap-2 items-center">Keep Climbing</h1>
+        <h1 className="text-lg sm:text-xl font-semibold hidden sm:flex gap-2 items-center">5G Built Right</h1>
         <div className="flex items-center gap-2 sm:gap-6">
           <motion.button
             whileTap={{ scale: 0.9 }}
@@ -241,7 +241,7 @@ const Chat = () => {
             sendMessage(e);
           }
         }}
-        placeholder="Ready When You Are"
+        placeholder="what can we do better for you?"
         className="flex-1 py-2 sm:py-3 px-3 sm:px-5 rounded-[33px] bg-[#f4f4f4] focus-within:outline-none placeholder:text-slate-600 text-sm sm:text-base resize-none overflow-hidden"
         rows="1"
       />
@@ -254,7 +254,7 @@ const Chat = () => {
     </div>
   </form>
   <div className="text-center p-2 text-xs sm:text-sm hidden sm:block text-gray-500">
-  The World’s Most Trusted Airline
+  America's Most Reliable Network
   </div>
 </div>
 
